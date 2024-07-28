@@ -1,0 +1,52 @@
+.prototyping-item {
+    position: relative;
+}
+
+.prototyping-description {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.research-item {
+    position: relative;
+}
+.research-description {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.research-item:hover .research-description {
+    display: block;
+}
+.research-item.active .research-description {
+    display: block;
+}
+.prototyping-item {
+    position: relative;
+}
+.prototyping-description {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.prototyping-item:hover .prototyping-description {
+    display: block;
+}
+.prototyping-item.active .prototyping-description {
+    display: block;
+}
