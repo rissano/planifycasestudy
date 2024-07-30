@@ -23,65 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             targetPane.classList.add('show', 'active');
         });
     });
-
-    // Function to toggle description for research or prototyping items
-    function toggleDescription(item) {
-        const description = item.querySelector('.prototyping-description');
-        if (description) {
-            description.style.display = 'block';
-        }
-    };
-
-    function hideDescription(item) {
-        const description = item.querySelector('.prototyping-description');
-        if (description) {
-            description.style.display = 'none';
-        }
-    };
-
-    // Get all prototyping items
-    const prototypingItems = document.querySelectorAll('.prototyping-item');
-
-    // Add event listeners to each prototyping item for mouseenter and mouseleave
-    prototypingItems.forEach(item => {
-        item.addEventListener('mouseenter', function() {
-            toggleDescription(item);
-        });
-
-        item.addEventListener('mouseleave', function() {
-            hideDescription(item);
-        });
-    });
 });
 
 
-
-function toggleDescription(item) {
-    const description = item.querySelector('.testing-description');
-    if (description) {
-        description.style.display = 'block';
-    }
-};
-
-function hideDescription(item) {
-    const description = item.querySelector('.testing-description');
-    if (description) {
-        description.style.display = 'none';
-    }
-};
-
-// Get all testing items
-const testingItems = document.querySelectorAll('.testing-item');
-
-// Add event listeners to each prototyping item for mouseenter and mouseleave
-testingItems.forEach(item => {
-    item.addEventListener('mouseenter', function() {
-        toggleDescription(item);
-    });
-
-    item.addEventListener('mouseleave', function() {
-        hideDescription(item);
-    });
-});
-
-
+   

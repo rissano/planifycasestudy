@@ -6,30 +6,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-    <link rel="stylesheet" type="styles/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Planify Travel App Case Study</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
 
 
 <body>
 
     <!-- Jumbotron Section -->
-    <div class="jumbotron text-center">
-        <img src="app-image.jpg" alt="Planify Travel App" class="img-fluid">
+    <div class="jumbotron text-center" style="background-image: url('/images/jumbotron.png'); background-size: cover; background-position: center; color: white;">
         <h1 class="display-4">Planify Travel App</h1>
         <p class="lead">Your ultimate travel planning companion.</p>
     </div>
+    
 
     <!-- Problem and Solution Section -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+    <div class="container intro">
+        <div class="row intro">
+            <div class="col-md-5 intro">
                 <h2>The Problem</h2>
                 <p>Travelers with demanding work commitments often counter challenges in organizing well-rounded travel experiences. They 
                     perceive trip planning as time-intensive, resulting in overlooked opportunities, and heightened stress levels.
                     </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 intro">
                 <h2>The Solution</h2>
                 <p>A app that streamlines the trip planning process for busy individuals. The app offers tools to organize every aspect of the their travels, ensuring users plan their trips with ease and confidence.</p>
             </div>
@@ -78,81 +80,354 @@
         </div>
     </div>
 
+
     <!-- User Research Section -->
-    <div class="container mt-5">
+     <!-- proto persona -->
+    <div class=" user-research container mt-5">
         <h2>User Research</h2>
-        <div class="row">
-            <!-- Example of 14 research items -->
-            <div class="col-md-3 research-item" onclick="toggleDescription(this)">
-                <h5>Proto Persona</h5>
-                <div class="research-description">
-                    <p>Description of research area 1...</p>
+        <div class="row proto-persona">
+            <div class="card mb-8">
+                <div class="card-body proto-persona">
+                    <h3 class="card-title">Proto Persona</h3>
+                    <div class="row proto-persona">
+                      <div class="col-md-6">
+                        <img src="/images/Proto Persona.png" class="img-fluid" alt="Proto Persona Image">
+                      </div>
+                    <div class="denise col-md-4">
+                        <h4>Ava Archer</h4>
+                        <p>Ava is a realtor from Charlotte, NC, who struggles to efficiently plan trips due to her busy schedule.</p>
+                        <p><strong>Pains & Frustrations:</strong> Busy work schedule, work calls during vacation, managing expenses.</p>
+                        <p><strong>Goals & Needs:</strong> Relaxing vacation, budget management, proximity to attractions.</p>
+                    </div>
                 </div>
             </div>
-            <!-- Example of 14 research items -->
-            <div class="col-md-3 research-item" onclick="toggleDescription(this)">
-                <h5>User Interviews</h5>
-                <div class="research-description">
-                    <p>Description of research area 1...</p>
-                </div>
-                   <!-- Example of 14 research items -->
-            <div class="col-md-3 research-item" onclick="toggleDescription(this)">
-                <h5>Affinity Diagram</h5>
-                <div class="research-description">
-                    <p>Description of research area 1...</p>
-                </div>
-            <!-- Example of 14 research items -->
-            <div class="col-md-3 research-item" onclick="toggleDescription(this)">
-                <h5>Empathy Mapping and User Persona</h5>
-                <div class="research-description">
-                    <p>Description of research area 1...</p>
-                </div>
-            <!-- Example of 14 research items -->
-            <div class="col-md-3 research-item" onclick="toggleDescription(this)">
-                <h5>User Insight & Problem Statement</h5>
-                <div class="research-description">
-                    <p>Description of research area 1...</p>
-                </div>
-            <!-- Example of 14 research items -->
-            <div class="col-md-3 research-item" onclick="toggleDescription(this)">
-                <h5>Feature Prioritization</h5>
-                <div class="research-description">
-                    <p>Description of research area 1...</p>
-                </div>
         </div>
-    </div>
 
-    <!-- Prototyping Section -->
+
+
+  <!-- user interviews-->
+        <div class=" interview container mt-5">
+            <div class="row interview">
+                <div class="card mb-8 interview">
+                    <div class="card-body interview">
+                        <h3 class="card-title interview">User Interviews</h3>
+                        <div class="row interview">
+                          <div class="col-md-8 interview">
+                            <img src="/images/user interviews.png" class="img-fluid" alt="user interviews">
+                          </div>
+                        <div class="denise col-md-4">
+                            <p>To begin my research, I conducted a interview involving five participants, all employed, aged 24-35, and with a interest in traveling. The primary goal of the interview was to gain valuable insights on the travel behaviors of individuals and to identify the most common frustrations they encounter when planning their trips.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Affinity/empathy/user persona-->
+        <div class="container affinity mt-5">
+            <div class="column">
+                <div class=" affinity-diagram row-md-8 mb-8">
+                    <div class="card">
+                        <div class="card-body affinity">
+                            <h3 class="card-title">Affinity Diagram</h3>
+                            <div class="column">
+                                <div class="row-md-12">
+                                    <img src="/images/affinity diagram.png" class="img-fluid" alt="affinity diagram">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row-md-6 mb-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Empathy Mapping</h3>
+                            <div class="column">
+                                <div class="row-md-12">
+                                    <img src="/images/empathy mapping.png" class="img-fluid" alt="empathy mapping">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row-md-6 mb-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">User Persona</h3>
+                            <div class="column">
+                                <div class="row-md-12">
+                                    <img src="/images/user persona.png" class="img-fluid" alt="user persona">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+            <!-- THE PROBLEM-->
+            <div class="container mt-5">
+                <h2>The Problem</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body statement">
+                                <h3 class="card-title statement">User Insight</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Ava, who is very busy with her work responsibilities, needs assistance in planning her trips because she wants to spend less time planning. 
+                                            During user interviews, I discovered that majority of the users jobs are very time demanding. When it comes to booking a trip, they find planning very stressful. Too many dissatisfactory options make users feel overwhelmed.
+                                            Therefore, I believe that people need assistance planning trips tailored around their needs. By developing an app that could make it easier for them to plan a trip, I may be able to help.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body statement">
+                                <h3 class="card-title statement">Problem Statement</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Through my extensive research, I’ve observed that people with busy work schedules have difficulty finding time to plan the perfect trip. They feel it takes a significant amount of time to plan every aspect, resulting in inadequate planning, missed opportunities, increased stress, and budgeting challenges. How might we assist busy workers, who have limited time outside work, in booking trips tailored to their needs in an efficient manner?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body statement">
+                                <h3 class="card-title statement">Ideation</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>“I like being able to walk to nearby attractions from my hotel” <br>
+                                            “I wish I could get recommendations based on my interests and previous travels” <br>
+                                            “What if a app could plan out the best vacation for me”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- Feaure prioritization FIX THIIIS-->
     <div class="container mt-5">
-        <h2>Prototyping</h2>
         <div class="row">
-            <!-- Example of 14 prototyping items -->
-            <div class="col-md-3 prototyping-item" onclick="toggleDescription(this)">
-                <h5>Prototyping Area 1</h5>
-                <div class="prototyping-description">
-                    <p>Description of prototyping area 1...</p>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Feature Prioritization</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/images/prioritization matrix.png" class="img-fluid" alt="feature prioritization">
+                        </div>
+                        <div class="col-md-8">
+                            <p>Main features: <br>
+                                1. Location recommendations based on my interests & previous travels <br>
+                                2. A whole itinerary booked before my trip
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- Repeat above div for all 14 prototyping items -->
         </div>
     </div>
-
-
-     <!-- Testing and Iterating Section -->
-     <div class="container mt-5">
-        <h2>Testing and Iterating</h2>
+    
+    <!-- Value proposition -->
+    <div class="container mt-5">
         <div class="row">
-            <!-- Example of testing and iterating items -->
-            <div class="col-md-3 testing-item" onclick="toggleDescription(this)">
-                <h5>testing Area 1</h5>
-                <div class="testing-description">
-                    <p>Description of testing area 1...</p>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Value Proposition Statement</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/images/value proposition.png" class="img-fluid" alt="value proposition">
+                        </div>
+                        <div class="col-md-8">
+                            <p>I’m developing a travel app to help dynamically productive individuals plan their dream vacation while maintaining their busy schedules.<br>
+                                We’re better because we assess each user based on their own unique needs, and adapting to them as they change.<br>
+                                We are believable because we use personalized algorithms and comprehensive itinerary planning to simplify and tailor the perfect planning experience.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- Repeat above div for all testing items -->
         </div>
     </div>
+    
 
+            <!-- competitor analysis-->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">SWOT</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                       <img src="/images/swot.png" class="img-fluid" alt="swot">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Competitor Analysis</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                      <img src="/images/competitor analysis.png" class="img-fluid" alt="competitor analysis">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Competitor Analysis Matrix</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="/images/competitor analysis matrix.png" class="img-fluid" alt="competitor analysis matrix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- PROTOTYPING-->
+<!-- PROTOTYPING-->
+<div class="container mt-5">
+    <h2>Prototyping</h2>
+    <div class="row">
+        <div class="col-md-12 mb-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">User Flow</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/images/User Flow.png" class="img-fluid" alt="user flow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Wireframing -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 mb-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Lo-Fi Wireframe Sketches</h3>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <img src="/images/wireframe sketches.png" class="img-fluid" alt="wireframe sketches">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 mb-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Lo-Fi Digital Wireframes</h3>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <img src="/images/Digital Wireframes.png" class="img-fluid" alt="digital wireframes">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 mb-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Hi-Fi Prototype</h3>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <img src="/images/hi fi.png" class="img-fluid" alt="hi fi prototype">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TESTING AND ITERATING-->
+<div class="container mt-5">
+    <h2>Testing and Iterating</h2>
+    <h3>User Testing Plan</h3>
+    <h5>I conducted testing with 5 users to understand how they use the app, and to identify any changes that need to be made to improve the app's functionality.</h5>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Objectives</h4>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>1. Can users create an account? <br>
+                               2. Can users make a destination preference? <br>
+                               3. Can users navigate to the explore page to view their trip recommendations? <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Tasks</h4>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>1. Create an account to view the home screen <br>
+                               2. Save a destination in the preference settings <br>
+                               3. View the explore page to see trip recommendations <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Feedback</h4>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>- Users felt the app was very easy to navigate <br>
+                               - Users liked the integration of AI to organize and plan customized trips <br>
+                               - Users felt the tips on the home screen weren’t viewable long enough to read <br>
+                               - Users wanted to see specific dates on the explore page so they’d know what weather to expect and have the opportunity to change the date
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!-- ITERATING-->
 
  <script src="js/script.js"></script>
     </body>

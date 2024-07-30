@@ -1,52 +1,104 @@
-.prototyping-item {
-    position: relative;
-}
 
-.prototyping-description {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background: white;
-    border: 1px solid #ccc;
-    padding: 10px;
+/* Header Styling */
+h2 {
+    text-align: center;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
+/* Nav Tabs Styling */
+.nav-tabs {
+    border-bottom: 2px solid #ddd;
+    justify-content: center;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    border-color: #007bff #007bff #fff;
+    color: #fff;
+}
+
+/* Tab Content Styling */
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-pane p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.tab-pane ul {
+    padding-left: 20px;
+}
+
+.tab-pane ul li {
+    margin-bottom: 10px;
+}
+.nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    color: hotpink; /* Text color set to hot pink */
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    color: hotpink; /* Keep text color hot pink on hover */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    border-color: #007bff #007bff #fff;
+    color: blue; /* Text color turns blue when active (clicked) */
+}
 
 
 
+.row.intro {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
 
-.research-item {
-    position: relative;
+
+
+.row.proto-persona {
+    display: flex;
+    justify-content: center;
 }
-.research-description {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background: white;
-    border: 1px solid #ccc;
-    padding: 10px;
+.card-body.proto-persona h3 {
+    display: flex;
+    margin-left: 205px;
 }
-.research-item:hover .research-description {
-    display: block;
-}
-.research-item.active .research-description {
-    display: block;
-}
-.prototyping-item {
-    position: relative;
-}
-.prototyping-description {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-.prototyping-item:hover .prototyping-description {
-    display: block;
-}
-.prototyping-item.active .prototyping-description {
-    display: block;
+
+.card-body.statement h3 {
+    justify-content: center;
+    text-align: center;
 }
