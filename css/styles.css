@@ -64,7 +64,7 @@ h2 {
     padding: 10px 20px;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
-    color: hotpink; /* Text color set to hot pink */
+    color: hotpink; 
 }
 
 .nav-tabs .nav-link:hover {
@@ -87,8 +87,12 @@ h2 {
     justify-content: space-between;
 }
 
+.proto-persona-inner-row {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
 
-
+}
 .row.proto-persona {
     display: flex;
     justify-content: center;
@@ -98,7 +102,131 @@ h2 {
     margin-left: 205px;
 }
 
+.proto-persona-details {
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+    height: auto;
+}
+.proto-persona-card-title {
+    text-align: center;
+}
+.proto-persona-row {
+    margin-top: 40px;
+}
+
+
+
+
+
 .card-body.statement h3 {
     justify-content: center;
     text-align: center;
 }
+
+
+
+
+h3.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.user-persona h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.user-img {
+    text-align: center;
+}
+
+.img-fluid {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.user-persona p {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    width: 75%;
+    margin-left: 20px;
+}
+
+.user-persona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.larger-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.fp p {
+    margin-left: 30px;
+}
+.feat-container {
+    margin-bottom: 30px;
+}
+
+
+
+.custom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-col {
+    /* Add custom styles for columns if needed */
+}
+
+.custom-card {
+    height: 100%;
+}
+
+.custom-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-card-title {
+    margin-bottom: 15px;
+}
+
+.custom-img {
+    max-width: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.value-card-title {
+    margin-left: 405px;
+}
+.user-flow-card-title {
+    text-align: center;
+    margin-top: 20px;
+}
+.user-image-col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.user-flow-card-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+
